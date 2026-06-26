@@ -1,0 +1,2 @@
+# 🛒 Internship Project #1 - Ecommerce Store
+A modern and responsive eCommerce application built during my internship journey. It features product browsing, search, and cart functionality with a clean and user-friendly interface. This project helped me gain hands-on experience in full-stack development and real-world web application architecture.
