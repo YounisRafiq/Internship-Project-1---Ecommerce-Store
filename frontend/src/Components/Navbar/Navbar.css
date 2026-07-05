@@ -1,0 +1,66 @@
+.navbar{
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+}
+
+.icons{
+    display: flex;
+    gap: 50px;
+}
+
+.icons i{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.logo{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+
+.details-2{
+    position: absolute;
+    top: 175px;
+    right: 50px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.details-2 h2 , p{
+    color: whitesmoke;
+}
+
+.details-2 p{
+    width: 70%;
+}
+
+.details-2 button{
+    width: 40%;
+}
+
+
+.details-3{
+    position: absolute;
+    top: 175px;
+    left: 150px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.details-3 h2 , p{
+    color: whitesmoke;
+}
+
+.details-3 p{
+    width: 70%;
+}
+
+.details-3 button{
+    width: 40%;
+    background: #444;
+}
