@@ -14,6 +14,11 @@ const productSchema = new mongoose.Schema(
       maxlength: 200,
       trim: true,
     },
+    category: {
+      type: String,
+      enum: ["Men", "Women", "Electronics", "Shoes", "Books", "Other"],
+      required: true,
+    },
     price: {
       type: Number,
       required: true,
@@ -25,14 +30,30 @@ const productSchema = new mongoose.Schema(
       min: 0,
       max: 5,
     },
+    stock: {
+      type: Number,
+      default: 1,
+    },
     comment: {
       type: String,
       trim: true,
     },
+    images: [
+      {
+        url: {
+          type: String,
+          required: true,
+        },
+        publicId: {
+          type: String,
+          required: true,
+        },
+      },
+    ],
   },
   {
     timestamps: true,
-  }
+  },
 );
 
 const Product = mongoose.model("Product", productSchema);
