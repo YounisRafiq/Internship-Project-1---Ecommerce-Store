@@ -1,0 +1,40 @@
+.cards h2 {
+  color: #444;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 0 10px;
+}
+
+.products .product-card{
+    margin: 35px 0;
+    border: 1px solid #333;
+}
+
+.products .product-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+
+}
+
+.product-card .prodcut_details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card .prodcut_details h3 , p{
+    margin-top: 15px;
+    color: #444;
+}
+
+.prodcut_details h6{
+    text-align: left !important;
+}
